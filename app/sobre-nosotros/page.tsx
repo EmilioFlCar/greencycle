@@ -40,15 +40,19 @@ export default function SobreNosotrosPage() {
   const team = [
     {
       name: "Lina Marcela Merlano Marin",
+      role: "Estudiante de derecho",
     },
     {
       name: "Candida Stuard Salas Mendoza",
+      role: "Estudiante de derecho",
     },
     {
       name: "Yenifer Thays Ariza de Leon",
+      role: "Estudiante de derecho",
     },
     {
       name: "Luisa María Rojas Patiño",
+      role: "Estudiante de administración de empresas",
     },
   ]
 
@@ -83,8 +87,8 @@ export default function SobreNosotrosPage() {
               <div className="prose prose-lg text-eco-700">
                 <p className="mb-6">
                   GreenCycle nació  de la necesidad urgente de abordar el creciente problema de los residuos
-                  electrónicos en nuestras ciudades. Fundada por un equipo de ingenieros ambientales y desarrolladores
-                  comprometidos con la sostenibilidad.
+                  electrónicos en nuestras ciudades. Fundada por un grupo de estudiantes de quinto semestre de derecho y administración de empresas de la
+                  Fundación Universitaria del Área Andina (Areandina) comprometidos con la sostenibilidad.
                 </p>
                 <p className="mb-6">
                   Observamos que muchas personas querían reciclar sus dispositivos electrónicos de manera responsable,
@@ -133,6 +137,7 @@ export default function SobreNosotrosPage() {
                   <Users className="h-12 w-12 text-eco-600" />
                 </div>
                 <h3 className="text-xl font-bold text-eco-900 mb-2">{member.name}</h3>
+                <p className="text-eco-600">{member.role}</p>
               </div>
             ))}
           </div>
